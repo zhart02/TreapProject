@@ -2,6 +2,7 @@
 
 import java.util.Random;
 
+
 public class TreapNode {
 
     private TreapNode left;
@@ -141,6 +142,7 @@ public class TreapNode {
         return root;
     }
 
+    //function to inorder traverse the tree
     public static void inorder(TreapNode root)
     {
         if (root != null)

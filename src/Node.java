@@ -1,3 +1,6 @@
+/*
+This class creates nodes for trees
+ */
 public class Node {
 
     int key, height;

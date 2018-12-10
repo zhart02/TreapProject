@@ -2,6 +2,9 @@ import java.util.*;
 
 public class TreapsvsAVL {
 
+    /*
+    the main method uses for loops to calculate the average time it takes for each insertion, deletion, and search method takes for both AVL and treapsgit
+     */
     public static void main(String[] args) {
         ArrayList<ArrayList> testArrays = new ArrayList<>(); //New ArrayList object testArrays creation
         for (int i = 1; i <= 1000000; i *= 10) { //For loop from 1 to 100,000, increasing by a magnitude of 10 each run
@@ -107,6 +110,7 @@ public class TreapsvsAVL {
 
     }
 
+    //generates an array list of size n
     public static ArrayList generate(int size) {
         ArrayList result = new ArrayList(size);
         for (int i = 0; i < size; i++) {
